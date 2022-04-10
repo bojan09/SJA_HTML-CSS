@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic HTML Table part 02</title>
+
+    <style>
+
+       /* The solution to the vertical align of the letters, couldn't find a solution with HTML only */
+
+        .lunch span{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-weight: 800;
+    }
+
+     td{
+            text-align: center;
+        }
+
+    </style>
+
+  </head>
+  <body bgcolor="#f2f2f2">
+    <center>
+
+        <!-- Tried align="center" on the tbody and table but it didn't center the child elements in the tr. So instead of writing align in all of the tr. I used a bit of CSS. -->
+      <table width="60%" cellpadding="20" border="5"  >
+        <tbody >
+          <caption >
+            TIME TABLE
+          </caption>
+
+          <!-- Day/Period -->
+          <tr >
+            <th>Day/Period</th>
+            <th>I 9:30-10:20</td>
+            <th>II 10:20-11:10</td>
+            <th>III 11:10-12:00</td>
+            <th>12:00-12:40</td>
+            <th>IV 12:40-1:30</td>
+            <th>V 1:30-2:20</td>
+            <th>VI 2:30-3:10</th>
+            <th>VII 3:10-4:00</td>
+          </tr>
+
+          <!-- Monday -->
+          <tr>
+              <th>Monday</th>
+              <td>Eng</td>
+              <td>Mat</td>
+              <td>Che</td>
+              <td class="lunch" rowspan="6">
+                  <span>L</span>
+                  <span>U</span>
+                  <span>N</span>
+                  <span>C</span>
+                  <span>H</span>
+              </td>
+              <td colspan="3">LAB</td>
+              <td>Phy</td>
+          </tr>
+
+          <!-- Tuesday -->
+          <tr>
+              <th>Tuesday</th>
+              <td colspan="3">LAB</td>
+              <td>Eng</td>
+              <td>Che</td>
+              <td>Mat</td>
+              <td>SPORTS</td>
+          </tr>
+
+          <!-- Wednesday -->
+          <tr>
+              <th>Wednesday</th>
+              <td>Mat</td>
+              <td>Phy</td>
+              <td>Eng</td>
+              <td>Che</td>
+              <td colspan="3">LIBRARY</td>
+          </tr>
+
+          <!-- Thursday -->
+          <tr>
+              <th>Thursday</th>
+              <td>Phy</td>
+              <td>Eng</td>
+              <td>Che</td>
+              <td colspan="3">LAB</td>
+              <td>Mat</td>
+          </tr>
+
+          <!-- Friday -->
+          <tr>
+              <th>Friday</th>
+              <td colspan="3">LAB</td>
+              <td>Mat</td>
+              <td>Che</td>
+              <td>Eng</td>
+              <td>Phy</td>
+          </tr>
+
+          <!-- Saturaday -->
+          <tr>
+              <th>Saturaday</th>
+              <td>Eng</td>
+              <td>Che</td>
+              <td>Mat</td>
+              <td colspan="3">SEMINAR</td>
+              <td>SPORTS</td>
+          </tr>
+        </tbody>
+      </table>
+    </center>
+  </body>
+</html>
