@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Details - Basic Form</title>
+
+    <style>
+      body {
+        width: 50%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <h1>Job Details</h1>
+    </center>
+
+    <hr />
+    <br />
+
+    <!-- Job title -->
+    <p>
+      <label>Job title:</label>
+      <input type="text" size="10" />
+    </p>
+    <br />
+
+    <!-- Description  -->
+    <p>
+      <label>Description:</label>
+      <textarea cols="10" rows="3"></textarea>
+    </p>
+    <p>Brief Description should have atmost 500 characters</p>
+    <br />
+    <!-- Comapny name -->
+    <p>
+      <label>Company name:</label>
+      <input type="text" size="10" />
+    </p>
+    <br />
+    <!-- Contact number -->
+    <p>
+      <label>Company name:</label>
+      <input type="text" size="10" />
+    </p>
+    <br />
+    <!-- Contact person -->
+    <p>
+      <label>Company person:</label>
+      <input type="text" size="10" />
+    </p>
+    <br />
+    <!-- Email -->
+    <p>
+      <label>Email:</label>
+      <input type="text" size="10" />
+    </p>
+    <br />
+    <!-- Work status -->
+    <p>
+      <label for="option-1">Work status:</label>
+      <input type="checkbox" id="option-1" />
+      <span>Full time</span>
+      <input type="checkbox" id="option-2" />
+      <span>Part time</span>
+      <input type="checkbox" id="option-3" />
+      <span>Per dim</span>
+      <input type="checkbox" id="option-4" />
+      <span>Others</span>
+    </p>
+    <br />
+    <!-- Salary -->
+    <p>
+      <label>Salary:</label>
+      <input type="text" size="10" />
+      <!-- select option #1 -->
+      <select>
+        <option value="US Dollar">US Dollar</option>
+        <option value="CA Dollar">CA Dollar</option>
+        <option value="Euro">Euro</option>
+      </select>
+      <!-- select option #2 -->
+      <select>
+        <option value="Yearly">Yearly</option>
+        <option value="Monthly">Monthly</option>
+        <option value="Weekly">Weekly</option>
+      </select>
+    </p>
+    <br />
+    <!-- Experience (Years) -->
+    <p>
+      <label>Experience (Years):</label>
+      <input type="text" size="10" />
+    </p>
+    <br />
+    <!-- Locations -->
+    <p>
+      <label>Locations:</label>
+      <input type="text" size="10" />
+    </p>
+    <br />
+    <!-- Qualifications -->
+    <p>
+      <label>Qualifications</label>
+      <!-- Qualifications selection #1 -->
+      <select multiple="true">
+        <option value="Any">Any</option>
+        <option value="High School">High School</option>
+        <option value="Associate">Associate</option>
+        <option value="Pre Bachleors">Pre Bachleors</option>
+      </select>
+      <!-- Add / Remove buttons -->
+      <button>ADD &raquo;</button>
+      <button>&laquo; REMOVE</button>
+      <!-- Qualifications selection #2 -->
+      <select multiple="true">
+        <option value="Any">Any</option>
+        <option value="#"></option>
+        <option value="#"></option>
+        <option value="#"></option>
+      </select>
+    </p>
+    <br />
+    <!-- Submit & Reset buttons -->
+    <p>
+      <button>Submit</button>
+      <button>Reset</button>
+    </p>
+  </body>
+</html>
