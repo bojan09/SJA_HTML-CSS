@@ -1,0 +1,155 @@
+body{
+    background-color: antiquewhite;
+    color: orangered;
+
+    /* adding a background image */
+    background-image: url(../img/chevron.webp);
+}
+
+h2{
+    color: burlywood;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+h4{
+    color: powderblue;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+#hello-title{
+    color: maroon;
+    font-size:60px;
+    text-decoration: line-through;
+
+}
+
+.another-title{
+    color:lightcoral;
+    font-size: 50px;
+    text-decoration: overline;
+}
+
+p{
+    color: chocolate;
+    font-size: 24px;
+    font-style: italic;
+    line-height: 1.6;
+    /* letter-spacing: ; */
+    max-width: 65ch;
+}
+
+/* Exercise */
+
+/* Four headings with different styles */
+
+
+.heading-one{
+    font-size: 32px;
+    color:aqua;
+    font-style: italic;
+}
+
+.heading-two{
+    font-size: 40px;
+    color: rebeccapurple;
+    font-style: oblique;
+}
+
+.heading-three{
+    font-size: 46px;
+    color:yellowgreen;
+    font-style:bold;
+}
+
+.heading-four{
+    font-size: 52px;
+    color:violet;
+    font-style:normal;
+}
+
+
+/* Four paragraphs with different styles */
+
+.paragraph-one{
+    font-size: 24px;
+    color:indianred;
+    font-style:normal;
+    line-height: 1.2;
+}
+
+.paragraph-two{
+    font-size: 28px;
+    color:blue;
+    font-style:italic;
+    line-height: 1.4;
+}
+
+.paragraph-three{
+    font-size: 32px;
+    color:blueviolet;
+    font-style:oblique;
+    line-height: 1.6;
+}
+
+.paragraph-four{
+    font-size: 46px;
+    color:skyblue;
+    font-style:bold;
+    line-height: 1.8;
+}
+
+
+
+/* Exercise */
+
+
+/* Four heading with four different background images */
+
+
+/* BACKGROUND IMAGE
+
+    /* SINGLE repeat command */
+    /* background-repeat: no-repeat; */
+    /* SINGLE repeat command */
+
+    /* Command based on x/y axis */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* Command based on x/y axis */
+    
+    /* positioning of bg-image along both x/y axis */
+    /* background-position: center; */
+    /* positioning of bg-image along both x/y axis */
+    
+    /* Command based on x or y axis */
+    /* background-position-y: value; */
+    /* background-position-x: value; */
+    /* Command based on x or y axis */ 
+    
+
+
+
+.bg-heading__one{
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/ffd6f82c-60e2-4c97-bdc9-850e966f3ed7/pink-flowers.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.bg-heading__two{
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/moroccan-flower-dark.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-heading__three{
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/watercolor.png);
+    background-position:right;
+    background-repeat: no-repeat;
+}
+
+.bg-heading__four{
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/washi.png);
+}
