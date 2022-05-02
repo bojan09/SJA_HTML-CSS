@@ -1,0 +1,69 @@
+body{
+    width: 70vw;
+    height: auto;
+    margin: 2em auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    margin: 0;
+}
+
+#section-wrapper > *{
+text-align: center;
+}
+
+.logo{
+    width: 100%;
+    height: 100px;
+    background-color: #c3c3c3;
+
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    background-color: #c3c3c3;
+    margin: 20px 0;
+
+}
+
+
+nav .nav-link {
+    display: inline-block;
+    width: 20%;
+    height: 3em;
+    margin: 0 20px 15px 20px;
+    background-color: #c3c3c3;
+}
+
+.about{
+    width: 50%;
+    height: 540px;
+    float: left;
+    background-color: #c3c3c3;
+}
+
+.quick-links{
+    width: 45%;
+    height: 350px;
+    margin: 0 20px 20px 20px;
+    float: right;
+    background-color: #c3c3c3;
+}
+
+.quick-links-two{
+    margin:20px;
+    height: 150px;
+}
+
+.site-plan-copyright{
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+    margin: 20px 0;
+    background-color: #c3c3c3;
+    text-align:center;
+}
