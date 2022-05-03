@@ -120,7 +120,15 @@ p,span{
 /* MAIN AND TOGETHER CONTENT END  */
 
 
-
+/* The hamburger menu */
+.burger-menu{
+    display: grid;
+    padding: .5rem;
+    margin-top: -1.5rem;
+    justify-items:center;
+    line-height:.5;
+    font-weight: 800;
+}
 
 
 /* MAIN SECTION START */
@@ -146,13 +154,6 @@ p,span{
 .logo {
     flex: 1 0 auto;
 }
-
-/* The hamburger menu */
-
-/* !------------------ */
-
-
-/* MAIN SECTION START */
 
 .nav__btn {
     padding: .7rem 3.5rem;
