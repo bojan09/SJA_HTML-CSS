@@ -241,14 +241,10 @@ a {
     height: 100%;
     object-fit: cover;
     /* In order to work the width and the height need to be set*/
-    display: block;
-    /*Without this it's treated like an inline-element and there's white space */
 }
 
 /* Hover effect */
 .gallery__item img {
-    /* removes the small gap (spacing) between images */
-    display: block;
     width: 100%;
     box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.2);
     transition: all 0.4s;
@@ -259,6 +255,7 @@ a {
   }
   
   .gallery__item {
+      /* Keeps the img from overflowing outside it's box, but it will  cut back on the img size */
     overflow: hidden;
   }
   
